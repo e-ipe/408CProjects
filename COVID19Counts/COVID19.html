@@ -1,0 +1,20 @@
+<div class="p-5 bg-light text-dark rounded">
+  <h1 class="display-4">COVID 19 Counts</h1>
+  <p class="lead">This HTML page loads COVID 19 data for 10/8/2020 or 10/7/2020</p>
+</div>
+<div class="container mb-3 mt-3">
+  <input type="button" value="Show data for 10/8" onclick="display('https://projects.questumd.com/COVID-10-08-2020.json')"</input>
+  <input type="button" value="Show data for 10/7" onclick="display('https://projects.questumd.com/COVID-10-07-2020.json')"</input>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">State</th>
+        <th scope="col">Confirmed Cases</th>
+        <th scope="col">Deaths</th>
+        <th scope="col">People Tested</th>
+      </tr>
+    </thead>
+    <tbody id="student-table">
+    </tbody>
+  </table>
+</div>
